@@ -8,7 +8,7 @@ The generator is then re-run 3 times after a row permutation, 3 times with a new
 random 95% subsample of the training split, the learners are retrained, and we record the fraction of test
 points whose prediction changes (disagreement with the reference run). CGB-r uses the lambda matched to
 GBG++ in the benchmark (results/bench_r), fixed for all reruns.
-usage: python e12.py <openml_id> <out.jsonl> <nmax> [njobs]
+usage: python e12b.py <openml_id> <out.jsonl> <nmax> [njobs]
 """
 import sys, os, json, time
 import numpy as np

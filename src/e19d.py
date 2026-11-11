@@ -5,7 +5,7 @@ to the larger lambda (fewer balls). Nested evaluation: the same outer 5-fold spl
 training part only, and test accuracy is recorded. GBG++ is evaluated in the same nested way (its rule chosen
 by inner CV), so both sides are free of test-set selection. Finally lambda* is chosen by the same inner CV on
 the full data and CGB at lambda* is run through bench.evaluate (order, jitter, sub95, drift).
-usage: python e19.py <openml_id> <out.jsonl> <nmax> [njobs]
+usage: python e19d.py <openml_id> <out.jsonl> <nmax> [njobs]
 """
 import sys, os, json, time
 import numpy as np

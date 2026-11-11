@@ -4,7 +4,7 @@ mechanism, (eps,1e-5)-DP, post-processing). For every eps we draw TWO independen
 same private data and fit each model on each release. We report accuracy (mean of the two releases)
 and the disagreement rate between the two models' test predictions. One fixed prediction rule
 (density rule) is used for every GB method; nothing is selected on the test set.
-usage: python e5b.py <openml_id> <out.jsonl> [reps] [njobs]
+usage: python e5c.py <openml_id> <out.jsonl> [reps] [njobs]
 """
 import sys, os, json, time
 import numpy as np
